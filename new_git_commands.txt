@@ -1,0 +1,5 @@
+1. git remote add origin url_from_github 	--> Adds remote to our local repo
+2. git clone repo_url 				--> Clones repo from remote server to local
+3. git push -u origin branch_name		--> Pushes our changes to remote server
+4. git fetch 					--> Fetches updated from remote server to our (Readable only) copy of branch ex: origin/main
+5. git pull 					--> git fetch + git merge (it is a combination to these two)
